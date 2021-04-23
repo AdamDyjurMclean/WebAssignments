@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <ul>
+              <li><a href="/">Tempature</a></li> 
+              <li><a href="/register">Register </a></li>
+              <li><a href="/roster" target="_blank">Api Link</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h1>
+        BVC Sport Club Registration 
+    </h1>
+
+    <p id = form>
+        <h2>
+            Fill out this form to register for the BVC Sport Club
+        </h2>
+        <form action = "/post" method = "POST">
+            Enter ID: <br>
+            <input name = "id" id="id" onfocus="this.value=''"><br>
+            <br>Enter Name: <br>
+            <input name = "name" id="name" onfocus="this.value=''"><br>
+            <br>Enter Address:<br>
+            <input name = "address" id="address" onfocus="this.value=''"><br>
+            <br>Choose Status:<br>
+            <select name = "status" id ="select">
+                <option value = "student">Student ($10 fee)</option>
+                <option value = "staff">Staff ($50 fee)</option>
+                <option value = "volunteer">Volunteer (free)</option>
+            </select><br><br>
+            <button id = "submit">Submit</button>
+        </form>
+    </p>
+
+    <script src = "register.js"></script>
+</body>
+</html>
