@@ -1,0 +1,74 @@
+nav{
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #0175D8;
+}
+
+ul{
+  margin: 0 auto;
+}
+  
+li{
+  display: block;
+  float: left;
+  width: 20%;
+  text-align: center;
+  line-height: 50px;
+  position: relative;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+  position: relative;
+}
+
+a:hover{
+  color: black;
+  font-weight: bold;
+}
+
+h1{
+  margin-top: 100px;
+  text-align: center;
+}
+
+h2{
+  font-size: 18px;
+}
+
+.main{
+  display: inline;
+}
+
+.half{
+  display: inline-block;
+  width: 40%;
+  vertical-align: top;
+  margin-top: 50px;
+  margin-right: 5%;
+}
+
+#invs{
+  text-align: center;
+  opacity: 0;
+}
+
+footer{
+  margin-top: 100px;
+}
+
+#mark{
+  text-align: center;
+  margin-top: 100px;
+}
+
+#grade, #kelvin{
+  text-align: center;
+}
+
+#names{
+  margin-top: 50px;
+}
